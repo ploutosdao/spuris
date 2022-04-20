@@ -52,6 +52,7 @@ interface NavItemProps extends FlexProps {
   children: ReactText;
   target: string;
 }
+
 const NavItem = ({ icon, target, children, ...rest }: NavItemProps) => {
   return (
     <Link href={target} style={{ textDecoration: 'none' }}>

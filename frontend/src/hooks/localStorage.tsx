@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-
-
 // taken from: https://usehooks.com/useLocalStorage/
 export function useLocalStorage<T>(key: string, initialValue: T) {
   // State to store our value

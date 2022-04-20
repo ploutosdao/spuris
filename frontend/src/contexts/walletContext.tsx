@@ -54,7 +54,7 @@ export const WalletProvider: React.FC<WalletProviderProps & React.ReactNode> = (
     }
   }
 
-  function doReload(_chainId: string) { window.location.reload() };
+  function doReload(_chainId: string) { window.location.reload() }
 
   async function checkConnection() {
     const ethProvider = await detectEthereumProvider();
